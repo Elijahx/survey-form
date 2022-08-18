@@ -16,7 +16,6 @@ h1, p {
 
 form {
     background-color: #1F2D53;
-    height: 100vh;
     width: 80vw;
     border-radius: 12px;
     opacity: .9;
@@ -60,10 +59,14 @@ body {
     margin: 10px 0 0 0;
     width: 90%;
     min-height: 2em;
+   
+  }
+  input, select {
     border-radius: 12px;
   }
   
-  input, textarea {
+  
+  input, textarea, select {
     background-color: steelblue;
     border: 1px solid steelblue;
     color: white;
@@ -73,6 +76,12 @@ body {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+  }
+  .curricImprovements {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    
   }
   
   input[type="submit"] {
@@ -97,4 +106,5 @@ a {
   ::placeholder {
     color: white;
     opacity: 1;
+    padding-left: 1px;;
   }
